@@ -1,0 +1,29 @@
+#signup {
+  padding: 5% 35%;
+}
+
+#signup h3,
+.card-footer {
+  text-align: center;
+}
+
+#login {
+  padding: 11% 37%;
+}
+
+.form-group ul {
+  margin-top: 1rem;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+/* .formAlert {
+  height: 100px;
+  width: 100px;
+} */

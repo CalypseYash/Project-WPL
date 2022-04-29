@@ -1,0 +1,56 @@
+.profile-icon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navigation {
+  padding-right: 7%;
+}
+
+#city-search {
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 17% 20%;
+}
+
+#city-search-title {
+  padding: 0px 5%;
+}
+
+#popular-events {
+  padding-top: 4%;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #000000, #3e4142);
+  border-radius: 70px 70px 0 0;
+}
+
+#popular-events .carousel-item {
+  padding: 4% 7%;
+}
+
+.popular-event-image {
+  opacity: 100;
+  width: 15%;
+}
+
+.event-text {
+  padding-top: 3%;
+}
+
+#review {
+  background-image: linear-gradient(to bottom, #3e4142, #878e94, #fff);
+  color: #fff;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.review-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#review .carousel-item {
+  padding: 4% 15%;
+}

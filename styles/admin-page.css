@@ -1,0 +1,13 @@
+#admin-table {
+   padding: 2% 9%;
+}
+
+.btn .btn-primary {
+   color: rgb(255 255 255 / 55%);
+   background-color: transparent;
+   border: none;
+}
+
+button a {
+   text-decoration: none;
+}
