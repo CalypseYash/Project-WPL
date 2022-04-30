@@ -84,7 +84,7 @@
                   <i class="bi bi-person-circle profile-icon"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a href="" class="dropdown-item disab">Sign-Up</a></li>
+                  <li><a href="" class="dropdown-item disabled">Sign-Up</a></li>
                   <li><a href="" class="dropdown-item disabled">Log-In</a></li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
@@ -142,7 +142,7 @@
             ?>
             <div class="card event-card">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 image-container">
                   <img src="<?php print($row2['Event_Image']); ?>" class="img-fluid rounded-start event-image" alt="Event Image" />
                 </div>
                 <div class="col-md-8">

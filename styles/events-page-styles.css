@@ -15,8 +15,8 @@
 }
 
 .event-card {
-   max-width: 70%;
-   max-height: 200px;
+   margin-bottom: 1rem;
+   padding: 1rem;
 }
 
 .card a {
@@ -26,4 +26,18 @@
 
 .card a:hover {
    color: white;
+}
+
+.card-body {
+   margin-left: 1rem;
+}
+
+.image-container {
+   height: 246px;
+   width: 300px;
+}
+
+.image-container img {
+   height: 100%;
+   width: 100%;
 }

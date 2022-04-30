@@ -1,27 +1,46 @@
 #user-details-section {
-  padding: 5% 7%;
+   padding: 5% 7%;
 }
 
 #user-details-section table {
-  margin-top: 2rem;
+   margin-top: 2rem;
 }
 
 .user-details p {
-  display: inline-block;
+   display: inline-block;
 }
 
 .user-details-values {
-  margin-left: 10rem;
+   margin-left: 10rem;
 }
 
 #booked-tickets-section {
-  padding: 0 7% 7% 7%;
+   padding: 0 7% 7% 7%;
 }
 
 #booked-tickets-section h2 {
-  margin-bottom: 2%;
+   margin-bottom: 2%;
 }
 
-.booked-ticket-card-image {
-  height: 15rem;
+.event-card {
+   margin-bottom: 1rem;
+   padding: 1rem;
+}
+
+.card-body {
+   margin-left: 1rem;
+}
+
+/* .booked-ticket-card-image {
+   height: 15rem;
+} */
+
+.image-container {
+   height: 246px;
+   width: 300px;
+}
+
+.image-container img {
+   height: 100%;
+   width: 100%;
 }
