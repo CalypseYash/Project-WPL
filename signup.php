@@ -138,6 +138,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
     />
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Pacifico&display=swap" rel="stylesheet">
+
     <!--Bootstrap JQuery-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -160,7 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
     <section id="navigation">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 p-1">
         <div class="container-fluid">
-          <a href="#" class="navbar-brand">Site-Name</a>
+          <a href="index.php" class="navbar-brand">mint</a>
 
           <button
             class="navbar-toggler"

@@ -1,56 +1,105 @@
+body {
+   font-family: "Asap", sans-serif;
+}
+
 .profile-icon {
-  color: #fff;
-  font-size: 1.5rem;
+   color: #fff;
+   font-size: 1.5rem;
+}
+
+.navbar-brand {
+   font-family: "Pacifico", cursive;
 }
 
 .navigation {
-  padding-right: 7%;
+   padding-right: 7%;
 }
 
 #city-search {
-  text-align: center;
-  line-height: 1.5rem;
-  padding: 17% 20%;
+   text-align: center;
+   line-height: 1.5rem;
+   padding: 17% 20%;
 }
 
 #city-search-title {
-  padding: 0px 5%;
+   font-family: "Pacifico", cursive;
+   padding: 0px 5%;
 }
 
 #popular-events {
-  padding-top: 4%;
-  text-align: center;
-  color: #fff;
-  background-image: linear-gradient(to bottom, #000000, #3e4142);
-  border-radius: 70px 70px 0 0;
+   margin: 0 1rem 2rem 1rem;
+   padding-top: 4%;
+   text-align: center;
+   border-radius: 50px;
+   background-color: #ffe2e2;
+}
+
+#popular-events h1 {
+   font-family: "Pacifico", cursive;
 }
 
 #popular-events .carousel-item {
-  padding: 4% 7%;
+   padding: 4% 7%;
 }
 
 .popular-event-image {
-  opacity: 100;
-  width: 15%;
+   opacity: 100;
+   width: 15%;
 }
 
 .event-text {
-  padding-top: 3%;
+   padding-top: 3%;
 }
 
 #review {
-  background-image: linear-gradient(to bottom, #3e4142, #878e94, #fff);
-  color: #fff;
-  text-align: center;
-  padding-top: 4%;
+   text-align: center;
+   padding-top: 4%;
+   background-color: #f6f6f6;
+   margin: 0 1rem 2rem 1rem;
+   border-radius: 50px;
+}
+
+#review h1 {
+   font-family: "Pacifico", cursive;
 }
 
 .review-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 30px;
+   width: 10%;
+   border-radius: 100%;
+   margin: 30px;
 }
 
 #review .carousel-item {
-  padding: 4% 15%;
+   padding: 4% 15%;
+}
+
+#app-advert {
+   padding: 4% 15%;
+   background-color: #ffc7c7;
+   margin: 0 1rem 2rem 1rem;
+   border-radius: 50px;
+}
+
+#app-advert h3 {
+   margin-top: 3rem;
+}
+
+#app-advert h1 {
+   font-family: "Pacifico", cursive;
+}
+
+#app-advert .row {
+   margin-top: 2rem;
+}
+
+.cta-dw-btn {
+   margin: 7% 2% 5%;
+}
+
+.subtitle {
+   padding-top: 2rem;
+}
+
+.buttons {
+   padding-left: 4rem;
 }

@@ -36,6 +36,15 @@ session_start();
 
     <!--CSS-->
     <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -44,7 +53,7 @@ session_start();
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2 p-1">
             
             <div class="container-fluid">
-                <a href="#" class="navbar-brand">Site-Name</a>
+                <a href="index.php" class="navbar-brand">mint</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -127,7 +136,7 @@ session_start();
     <!-- popular events -->
     <section id="popular-events">
         <h1>Popular Events</h1>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row justify-content-center">
@@ -189,7 +198,20 @@ session_start();
     </section>
 
     <!-- download our app -->
-    <section></section>
+    <section id="app-advert">
+        <div class="container-fluid">
+            <h1>Download Our App!</h1>
+            <div class="row">
+                <div class="col-md-6 subtitle" >
+                    <h4>Sign in through the app and enjoy additional benefits. You really are in for a treat</h4>
+                </div>
+                <div class="col-md-6 buttons" >
+                    <button type="button" class="btn btn-dark btn-lg cta-dw-btn"><i class="fab fa-apple"></i> Download</button>
+                    <button type="button" class="btn btn-light btn-lg cta-dw-btn"><i class="fab fa-google-play"></i> Download</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- footer -->
     <section></section>
