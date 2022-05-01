@@ -173,7 +173,7 @@ session_start();
     <!-- reviews -->
     <section id="review">
         <h1>Reviews</h1>
-        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <h4 class="review-text">I found the raddest seats for the athletics event of the Commonwealth Games. Watching everybody run 'dun dun dun dun' was fun!</h4>

@@ -148,9 +148,7 @@
                     <small class="text-muted">End: <?php print($row['End_Date'] . " "); print($row['End_Time']); ?></small>
                   </p>
                   <p class="card-text">
-                    <?php
-                      print($row['Tickets']);
-                    ?>
+                    Tickets: <?php print($row['Tickets']); ?>
                   </p>
                   <p class="card-text">
                     <?php
